@@ -15,7 +15,7 @@ int main(void) {
     HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
     HAL_Delay(1000);
     HAL_GPIO_TogglePin(LED_GPIO_PORT, LED_PIN);
-    HAL_Delay(100);
+    HAL_Delay(500);
   }
 }
 
